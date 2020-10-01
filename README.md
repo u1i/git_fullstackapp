@@ -45,11 +45,26 @@
  * Open browser
    * http://localhost:3000/
    
- * Verify that you see
+ * Verify that you see:
  
    <b>Express</b>
    
    Welcome to Express
+   
+ * Stop Command
+   * Ctrl+C
+   
+ * Change Directory
+   * cd ../frontend
+   
+ * Start Command
+   * npm start
+   
+ * Open browser
+   * http://localhost:3000/
+   
+ * Verify that you see:
+   * React welcome page and React Logo
    
  * Stop Command
    * Ctrl+C
