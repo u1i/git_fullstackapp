@@ -68,3 +68,28 @@
    
  * Stop Command
    * Ctrl+C
+
+<h2>E. Editing the backend:</h2>
+
+* Replace "www" file in /backend/bin/
+  * Use file from github repo
+  
+* Insert "mypage.js" file in /backend/routes/
+  * Use file from github repo
+  
+* Replace app.js file in /backend/
+  * Use file from github repo
+  
+* Install CORS locally in /backend/
+  * npm install cors
+  
+* Start Command
+  * npm start
+  
+ * Open browser
+   * http://localhost:7000/mypage
+   
+ * Verify that you see:
+   * I am sending this DATA from backend to frontend
+   
+ 
