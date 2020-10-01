@@ -33,3 +33,23 @@
   
 * Create Frontend
   * npx create-react-app frontend
+
+<h2>D. Checking backend and frontend projects:</h2>
+
+* Change Directory
+  * cd backend
+  
+ * Start Command
+   * npm start
+   
+ * Open browser
+   * http://localhost:3000/
+   
+ * Verify that you see
+ 
+   <b>Express</b>
+   
+   Welcome to Express
+   
+ * Stop Command
+   * Ctrl+C
