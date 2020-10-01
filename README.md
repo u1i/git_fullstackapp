@@ -77,7 +77,7 @@
 * Insert "mypage.js" file in /backend/routes/
   * Use file from github repo
   
-* Replace app.js file in /backend/
+* Replace "app.js" file in /backend/
   * Use file from github repo
   
 * Install CORS locally in /backend/
@@ -90,6 +90,6 @@
    * http://localhost:7000/mypage
    
  * Verify that you see:
-   * I am sending this DATA from backend to frontend
+   * "I am sending this DATA from backend to frontend"
    
  
