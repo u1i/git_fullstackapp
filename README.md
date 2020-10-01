@@ -92,4 +92,27 @@
  * Verify that you see:
    * "I am sending this DATA from backend to frontend"
    
- 
+<h2>F. Editing the frontend:</h2>
+
+* Replace "App.js" file in /frontend/src/
+  * Use file from github repo
+  
+<h2>G. Connecting the backend and frontend:</h2>
+
+* Open new CLI and change directory
+  * cd git_fullstackapp/backend
+  
+* Start Command
+  * npm start
+  
+* Open new CLI and change directory
+  * cd git_fullstackapp/frontend
+  
+* Start Command
+  * npm start
+  
+* Open browser
+  * http://localhost:3000/
+  
+* Verify that you see:
+  * React Log and "I am sending this DATA from backend to frontend"
