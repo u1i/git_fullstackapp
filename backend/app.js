@@ -3,9 +3,11 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var cors = require('cors'); // addition 1
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var mypageRouter = require('./routes/mypage'); // addition 2
 
 var app = express();
 
@@ -19,8 +21,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(cors()); // addition 3
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/mypage',mypageRouter); // addition 4
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
