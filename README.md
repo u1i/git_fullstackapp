@@ -13,3 +13,23 @@
 
 * Make Directory
   * mkdir git_fullstackapp
+
+<h2>C. Create backend and frontend projects:</h2>
+
+* Change Directory
+  * cd git_fullstackapp
+  
+* Create Backend
+  * express --view=pug backend
+  
+* Change Directory
+  * cd backend
+  
+* Install dependencies
+  * npm install
+  
+* Change Directory up one level
+  * cd ..
+  
+* Create Frontend
+  * npx create-react-app frontend
