@@ -115,4 +115,6 @@
   * http://localhost:3000/
   
 * Verify that you see:
-  * React Log and "I am sending this DATA from backend to frontend"
+  * React Logo and "I am sending this DATA from backend to frontend"
+  
+<h2>H. Congratulations backend and frontend are connected!</h2>  
