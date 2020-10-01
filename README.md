@@ -1,4 +1,4 @@
-<h2>Install necessary tools:</h2>
+<h2>Install necessary tools using CLI:</h2>
 
 * Install React
   * npm -g install create-react-app
