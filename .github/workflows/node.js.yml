@@ -27,6 +27,6 @@ jobs:
     - run: cd backend
     - run: pwd
     - run: ls -l
-    - run: npm ci
+    - run: cd backend;npm ci
     - run: npm run build --if-present
     - run: npm test
